@@ -450,6 +450,9 @@ th {
 /* Navigation Section */
 .top-navigation {
   background-color: #fff;
+  position: fixed;
+  width: 100%;
+  z-index: 9999;
 }
 .top-navigation > .content {
   height: 70px;
@@ -529,3 +532,24 @@ color: inherit;
   cursor: pointer;
 }
 
+/*----------------------------*/
+.cases {
+  background-color: #fff;
+  overflow: hidden;
+  padding-bottom: 90px;
+}
+.cases .content {
+  margin-top: 126px;
+  padding: none;
+  text-align: center;
+}
+.cases h2 {
+  font-size: 44px;
+  font-weight: 300;
+}
+.cases .devices li {
+  float: left;
+  width: 33.3333333%;
+  display: inline-block;
+}
+/*----------------------------*/
