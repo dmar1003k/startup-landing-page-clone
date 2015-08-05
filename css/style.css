@@ -553,3 +553,25 @@ color: inherit;
   display: inline-block;
 }
 /*----------------------------*/
+
+.social {
+  background-color: #fff;
+  text-align: center;
+}
+
+.social hr {
+  border: 0;
+  border-top: 1px solid #eaebac;
+}
+
+.social .icons li {
+  border-radius: 20px;
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  margin: 20px 5px;
+  border: 1px solid #eaebac;
+  padding: 10px 0;
+  text-align: center;
+
+}
